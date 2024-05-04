@@ -1,4 +1,6 @@
-﻿class Episodio
+﻿namespace ScreenSound.Modelos;
+
+internal class Episodio
 {
     public List<string> convidados = new();
     public Episodio(int ordem, string titulo, int duracao)
